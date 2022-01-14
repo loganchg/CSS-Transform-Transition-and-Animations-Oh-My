@@ -1,5 +1,6 @@
 .hamburger:hover > div:nth-child(1){
-  transform: rotate(45deg) translate(26px, 22px);
+  transform: rotate(45deg) 
+  translate(25px, 25px);
   background-color: ghostwhite;
   animation-name: top;
   animation-duration: 1s;
@@ -14,7 +15,8 @@
 }
 
 .hamburger:hover > div:nth-child(3){
-  transform: rotate(-45deg) translate(26px, -22px);
+  transform: rotate(-45deg)
+  translate(25px, -25px);
   background-color: ghostwhite;
   animation-name: bottom;
   animation-duration: 1s;
